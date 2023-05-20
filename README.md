@@ -1,9 +1,20 @@
 ### 欢迎来到黑之缘工作室网站！
 
-##添加作品
+## 简单介绍
+
+这个网站如看上去一样简单，只有 index.html 一页，主旨是轻便好照顾、更新~~加上制作人懒惰又技术不够~~。虽然现在不像以前那么热切地讨论、发布作品了，但希望以后还是有这样的一天~
+在这个主页里边有用
+
+## 添加作品
+
+- 只需要在 index.html 里 《作品介绍》那边找到下面的提示 
+- 每个作品都是被一个 ```<div class="col">``` 包住的东西
+- 拷贝贴在最后一个 col 的下面，把里边的内容替换就好啦 （记得符号要小心，不然会变成乱码 <(￣ c￣)y▂ξ）
 
 ```
-<div class="col">
+            <!---------- 添加作品复制这里开始 ---------->
+
+            <div class="col">
                 <div class="card text-white bg-dark">
                     <img src="./assets/works/dolls.png" class="card-img-top" alt="...">
                     <div class="card-body">
