@@ -117,12 +117,16 @@ h1 {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (min-width: 400px) {
     .content {
         max-width: 70%;
     }
     .card-text {
         padding: 2rem !important;
+    }
+
+    a {
+        font-size: 1.3rem;
     }
 }
 
@@ -138,6 +142,9 @@ h1 {
     .content {
         max-width: 70%;
     }
+        a {
+            font-size: 1rem;
+        }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
